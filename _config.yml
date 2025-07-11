@@ -1,0 +1,5 @@
+theme: jekyll-theme-minimal
+title: Eman's homepage
+description: Test!
+include:
+  - .well-known
