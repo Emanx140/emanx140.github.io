@@ -5,32 +5,21 @@
 </head>
 <body>
 
-<h1>Open Your Unity Game</h1>
+<h1>Open Designer App</h1>
 
-<p>Click the links below to open the game. If the game is installed, it should launch directly. Otherwise, it may prompt to open or redirect to an app store (depending on platform and configuration).</p>
+<h2>Using Universal/App Links</h2>
 
-<h2>Using Custom Scheme (Fallback/Basic)</h2>
-<a href="com.SunbaseData.SolarDesigner://open?designId=dc63d63e2577411e9757e4c5acf5895b">Open Game (Custom Scheme) - Level 1 for Alice</a><br><br>
-
-<h2>Using Universal/App Links (Recommended)</h2>
-<p>Ensure your domain (e.g., yourdomain.com) is correctly configured with Digital Asset Links (Android) or AASA (iOS).</p>
-<a href="http://192.168.1.63/open?designId=dc63d63e2577411e9757e4c5acf5895b">Open Game (Universal/App Link) - Level 1 for Bob</a><br><br>
+<a href="https://emanx140.github.io/open?designId=dc63d63e2577411e9757e4c5acf5895b">Open Game (Universal/App Link) - Level 1 for Bob</a><br><br>
 
 <script>
-    // Optional: JavaScript to try opening the app and fall back to app store
-    // This is more complex and often handled by deep link services.
-    // For a simple solution, just direct links are often sufficient.
+
     function openAppOrStore(url, appStoreUrl) {
         window.location.href = url;
-        // A timeout to check if the app launched. If not, redirect to store.
-        // This is not foolproof as browsers may block pop-ups or have different behaviors.
+
         setTimeout(function() {
             window.location.href = appStoreUrl;
-        }, 2500); // Adjust delay as needed
+        }, 2500);
     }
-
-    // Example usage (replace with your actual URLs)
-    // <button onclick="openAppOrStore('yourgame://open?scene=level1', 'https://play.google.com/store/apps/details?id=com.yourcompany.yourgamename')">Launch Game</button>
 </script>
 
 </body>
