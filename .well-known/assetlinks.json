@@ -1,0 +1,8 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.SunbaseData.SolarDesigner",
+    "sha256_cert_fingerprints": ["52:B9:BC:40:5F:B3:59:FE:79:91:93:E3:F7:84:BE:3F:BC:7F:78:20:D2:7F:4E:CB:18:9F:3C:24:B4:53:FA:D4"]
+  }
+}]
