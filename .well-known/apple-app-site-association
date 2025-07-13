@@ -4,7 +4,7 @@
     "details": [
       {
         "appID": "BGJSPJ76P9.com.SunbaseData.SolarDesigner",
-        "paths": [ "/open" ] 
+        "paths": [ "/open/*", "sunbase/addons/solardesigner2/SolarDesigner4.jsp" ] 
       }
     ]
   }
